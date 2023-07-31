@@ -62,4 +62,3 @@ console.log(saludoCompleto); */
 
 let nombre = prompt("Ingrese su nombre");
 alert("hola"+ " " + nombre);
-
