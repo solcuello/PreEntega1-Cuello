@@ -39,12 +39,40 @@ if (respuesta === "si") {
     alert("no puedes salir a jugar");
 } */
 
-let edad = 25;
+/* let edad = 16;
 
 if(edad < 14){
-    alert("no puedes entrar");
+    console.log("no puedes entrar");
 }else if(edad < 18){
-    alert("puedes entrar connun adulto");
+    console.log("puedes entrar conn un adulto");
 }else{
-    alert("puedes entrar a la fiesta");
+    console.log("puedes entrar a la fiesta");
 }
+ */
+/* && es verdadera cuando todos los elementos son verdaderos en caso contrario es falso 
+||es verdadero cuando el menos uno de los elementos es verdader en caso contrario es falso  */
+
+
+/* let edad = 45;
+
+console.log("su edad es: "+ edad);
+console.log(`su edad es: ${edad}`) */
+
+/* let nombre = prompt("ingrese nombre");
+let apellido = prompt("ingrese el apellido");
+
+if(nombre != "" && apellido !="") {
+    alert(`su nombre es: ${nombre} ${apellido}`);
+}else{
+    alert("el nombre y el apellido se requiere");
+} */
+
+let numero = prompt("ingrese un numero");
+
+if(numero > 1000){
+    alert("el numero es mayor a 1000");
+}else
+if(numero < 1000){
+    alert("el numero es menor a 1000");
+}
+
